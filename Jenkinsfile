@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'node:14-alpine' } }
+    agent { docker { image 'hub.c.163.com/library/node:latest' } }
     stages {
         stage('build') {
             steps {
